@@ -31,8 +31,8 @@ else:
         return s.decode('unicode_escape')
 
     bytes_type = str
-    unicode_type = unicode
-    basestring_type = basestring
+    unicode_type = str
+    basestring_type = str
 
 logger = logging.getLogger("dash.py")
 
